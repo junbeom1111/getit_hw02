@@ -5,7 +5,16 @@
     <meta charset="utf-8">
     </head>
     <body>
-    <h1><a href="index.html">LE SSERAFIM</a></h1>
+    
+    <input type="button" value="night" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('body').style.color = 'white';
+        document.getElementById('logo').src = 'lesserafim_logo_night.png';">
+    <input type="button" value="day" onclick="
+        document.querySelector('body').style.backgroundColor = 'white';
+        document.querySelector('body').style.color = 'black';
+        document.getElementById('logo').src = 'lesserafim_logo.png';">
+    <h1><a href="index.html">LE SSERAFIM-임준범</a></h1>
     <ol>
         <li><a href="kimchaewon.html">김채원</a></li>
         <li><a href="sakura.html">사쿠라</a></li>
@@ -14,8 +23,8 @@
         <li><a href="hongeunchae.html">홍은채</a></li>
     </ol>
 
-    <h2><a href="https://youtu.be/kjFmGEnZbDY?si=B_hrE0mFPXSn9cm6">르세라핌</h2>
-    <img src="lesserafim_logo.png" width="50%" height="50%">
+    <h2><a href="https://youtu.be/kjFmGEnZbDY?si=B_hrE0mFPXSn9cm6">르세라핌</a></h2>
+    <img src="lesserafim_logo.png" id="logo" width="50%" height="50%">
     <p>
         <strong style="font-size: 20px;">"둘, 셋! 안녕하세요, LE SSERAFIM입니다!"</strong>
         <br>
